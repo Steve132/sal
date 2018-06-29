@@ -1,9 +1,8 @@
-# sod
-Standard Simple Modern Cryptography User Facing Primitives
+# sal
+Standard Simple Modern Cryptography Library
+-User Facing Primitives Library and Binary
 
 In an attempt to make cryptography simple to get right, a series of small, simple libraries have been created.
-
-#hala
 
 libnacl
 libsodium
@@ -12,15 +11,15 @@ libmonocypher
 
 And others. 
 
-These all share a common set of cryptography primitives, with some limited exceptions.  sod is an attempt to unify them all into a commmon cryptography toolset that supports exactly the set of primitives required.
+These all share a common set of cryptography primitives, with some limited exceptions.  sal is an attempt to unify them all into a commmon cryptography toolset that supports exactly the set of primitives required.
 
 In addition, these libraries do not allow a standard user-facing standard for such important tasks as key management, keyring management, key derivation, and human readable or ascii serialization of ciphertexts, signatures, and keys to allow
 
-sod aims to solve these two problems in three respects:  
+sal aims to solve these two problems in three respects:  
 
-First, sod provides a common interface for all 4 implementations that optionally provides all features.
-Second, sod provides an implementation and a standard for all user-facing tasks.
-Finally, sod provides the unified definitions of which crypto primitives are to be used.
+First, sal provides a common interface for all 4 implementations that optionally provides all features.
+Second, sal provides an implementation and a standard for all user-facing tasks.
+Finally, sal provides the unified definitions of which crypto primitives are to be used.
 
-Sod has multiple "profiles" for different optional configurations, as well as extendibility.
+Sal has multiple "profiles" for different optional configurations, as well as extendibility.
 
