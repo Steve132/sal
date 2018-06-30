@@ -17,8 +17,10 @@ In addition, these libraries do not allow a standard user-facing standard for su
 
 sel aims to solve these two problems in three respects:  
 
-First, sel provides a common interface for all 4 implementations that optionally provides all features.
-Second, sel provides an implementation and a standard for all user-facing tasks.
+First, sel provides a common interface for multiple 'simple' crypto libraries that optionally provides the base features.  You can switch between them based on performance and compatibility.  The sel core interface can also be reimplemented in other languages
+
+Second, sel provides an implementation and a standard for all user-facing primitives such as key serialization and derivation.
+
 Finally, sel provides the unified definitions of which crypto primitives are to be used.
 
 Sel has multiple "profiles" for different optional configurations, as well as extendibility.
