@@ -9,7 +9,7 @@ libsodium
 tweetnacl
 libmonocypher
 
-And others.   
+And others.   ('sel' is also a prefix for 'salt' in many languages)
 
 These all share a common set of cryptography primitives, with some limited exceptions.  sel is an attempt to unify them all into a commmon cryptography toolset that supports exactly the set of primitives required.
 
